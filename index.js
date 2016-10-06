@@ -10,7 +10,6 @@ function fibonacci(n){
 }
 
 
-    document.write ( 'f1=' + fibonacci(1) + '<br>');
 
     document.write ( 'f3=' + fibonacci(3) + '<br>');
 
