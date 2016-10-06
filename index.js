@@ -5,8 +5,9 @@ function fibonacci(n){
         var f = a + b;
         a = b;
         b = f;
-        return b;
      };
+    
+     return b;
 }
 
 
