@@ -1,4 +1,4 @@
-function Fibonacci(n){
+function fibonacci(n){
     var a = 0;
     var b = 1;
     for(var i = 3; i <= n; i++) {
@@ -10,10 +10,10 @@ function Fibonacci(n){
 }
 
 
-    document.write ( 'f1=' + Fibonacci(1) + '<br>');
+    document.write ( 'f1=' + fibonacci(1) + '<br>');
 
-    document.write ( 'f3=' + Fibonacci(3) + '<br>');
+    document.write ( 'f3=' + fibonacci(3) + '<br>');
 
-    document.write ( 'f5=' + Fibonacci(5) + '<br>');
+    document.write ( 'f5=' + fibonacci(5) + '<br>');
 
-    document.write ( 'f7=' + Fibonacci(7) + '<br>');
+    document.write ( 'f7=' + fibonacci(7) + '<br>');
